@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Card, CardContent } from "./components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Progress } from "@/components/ui/progress";
-import { Input } from "@/components/ui/input";
+import { Button } from "./components/ui/card";
+import { Progress } from "./components/ui/card";
+import { Input } from "./components/ui/card";
 
 export default function RentRhythmApp() {
   const [rentAmount, setRentAmount] = useState(1200);
