@@ -1,2 +1,3 @@
 // src/lib/utils.js
-export const noop = () => {};
+export const cn = (...args) => args.filter(Boolean).join(" ");
+
